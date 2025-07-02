@@ -1,0 +1,12 @@
+<!-- src/androidTest/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application tools:ignore="MissingApplicationIcon">
+        <activity
+            android:name="com.example.mobilehackertaskmanager.HiltTestActivity"
+            android:exported="false">
+        </activity>
+    </application>
+</manifest>
+

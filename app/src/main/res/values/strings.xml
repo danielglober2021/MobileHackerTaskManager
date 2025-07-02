@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MobileHackerTaskManager</string>
+    <string name="delete_task">Delete task</string>
+    <string name="delete_task_spanish">Eliminar tarea</string>
+    <string name="topbartitle">topBarTitle</string>
+    <string name="ethical_hacker_steps">Pasos para ser un Hacker Ético</string>
+    <string name="return_string">Volver</string>
+    <string name="add_task">Agregar tarea</string>
+    <string name="fabscale">fabScale</string>
+    <string name="zoomandfade">zoomAndFade</string>
+    <string name="loading">loading</string>
+    <string name="task_detail">Detalle de la tarea</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="completed">Completada</string>
+    <string name="error_with_parameter">Error: %1$s</string>
+    <string name="new_task">Nueva tarea</string>
+    <string name="checkbox_completed">checkbox_completed</string>
+    <string name="mark_as_completed">Marcar como completada</string>
+    <string name="saving_spinner">saving_spinner</string>
+    <string name="save_task">Guardar tarea</string>
+    <string name="no_tasks">Sin tareas</string>
+    <string name="not_tasks_yet">No hay tareas aún.</string>
+    <string name="taskitem_value">TaskItem: %1$s</string>
+</resources>

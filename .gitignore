@@ -1,0 +1,75 @@
+# Archivos del sistema
+.DS_Store
+*.swp
+
+# Archivos de Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+.cxx/
+.externalNativeBuild/
+
+# Build
+/build/
+*/build/
+
+# Cache
+.caches/
+.cache/
+*.log
+
+# Configuración de ejecución
+captures/
+outputs/
+.navigation/
+*.apk
+*.ap_
+
+# Archivos de firma
+*.jks
+*.keystore
+
+# NDK
+.obj/
+*.so
+
+# Archivos generados
+gen/
+bin/
+*.class
+
+# Archivos de test
+test-results/
+test-output/
+
+# Archivos específicos de Kotlin
+*.kotlin_module
+
+# Archivos de virtualenv o entornos Python si usas scripts
+.venv/
+env/
+venv/
+
+# Google Services
+google-services.json
+google-services.plist
+firebase-debug.log
+
+# IntelliJ
+.idea/
+*.ipr
+*.iws
+
+# Android Studio 202x+
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/dictionaries
+
+# Compose Preview cache
+*.preview
+
+# Archivos de configuración de gradle-wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties.lock

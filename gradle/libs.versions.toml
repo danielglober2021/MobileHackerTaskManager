@@ -1,0 +1,72 @@
+[versions]
+agp = "8.7.3"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.9.1"
+activityCompose = "1.10.1"
+composeBom = "2025.06.01"
+navigation = "2.9.0"
+google-services = "4.4.3"
+firebase-bom = "33.16.0"
+firebase-ui = "8.0.2"
+hilt = "2.54"
+hilt-testing = "2.54"
+hilt-compiler = "1.2.0"
+ksp_version = "2.1.21"
+compose-animation = "1.6.7"
+constraintlayout-compose = "1.0.1"
+mockito-core = "5.18.0"
+mockito-inline = "5.2.0"
+mockito-kotlin = "5.2.1"
+mockito-android = "5.2.0"
+coroutines = "1.7.3"
+turbine = "1.1.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-animation = { module = "androidx.compose.animation:animation", version = "compose-animation"}
+androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref="constraintlayout-compose"}
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-auth = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
+hilt-core = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-ksp = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt-testing" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-compiler" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines"}
+kotlinx-coroutines-play = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "coroutines" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito-core"}
+mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockito-inline"}
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin"}
+mockito-android = { group = "org.mockito", name="mockito-android", version.ref = "mockito-android"}
+cash-turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine"}
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-google-services = { id = "com.google.gms.google-services", version.ref = "google-services"}
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-android-ksp = { id = "com.google.devtools.ksp", version.ref ="ksp_version" }
+dagger-hilt-android-plugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
+
